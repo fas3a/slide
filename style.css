@@ -20,6 +20,14 @@ img{
 
 }
 
+.cat_text{
+  display: absolute;
+  text-align: center;
+  top: 10px;
+  font-size: 30px;
+  color: white
+}
+
 .slide_button div{
   background-color: grey;
   opacity:0;
@@ -27,6 +35,7 @@ img{
   cursor: pointer;
   margin:10px;
   position: absolute;
+  transition: 0.6s ease;
 /*   height: 300px; */
 /*   display: flex;
   text-align: center;
